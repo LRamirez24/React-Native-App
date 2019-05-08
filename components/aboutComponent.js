@@ -27,7 +27,12 @@ class About extends Component {
         }
     }
     static navigationOptions = {
-        title: 'About Us'
+        title: 'About Us',
+        headerTintColor: '#ffffff',
+        headerStyle: {
+            backgroundColor: '#512DA8',
+           
+          },
     };
 
     render() {
@@ -35,7 +40,8 @@ class About extends Component {
             return (
                 <ListItem
                     key={index}  
-                    title={item.name} 
+                    title={item.name}
+                    titleStyle={{color: 'black', fontWeight: 'bold'}} 
                     subtitle={item.description}
                     hideChevron={true}
                   leftAvatar={{ source: require('./images/alberto.png')}}

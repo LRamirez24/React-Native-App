@@ -39,10 +39,13 @@ class Home extends Component {
         };
     }
 
-    static navigationOptions = {
+      static navigationOptions = {
         title: 'Home',
+        headerTintColor: '#ffffff',
+        headerStyle: {
+            backgroundColor: '#512DA8',
+          },
     };
-
     render() {
         
         return(

@@ -18,8 +18,12 @@ class Contact extends Component {
         };
     }
 
-    static navigationOptions = {
+       static navigationOptions = {
         title: 'Contact Us',
+        headerTintColor: '#ffffff',
+        headerStyle: {
+            backgroundColor: '#512DA8',
+          },
     };
 
     render() {

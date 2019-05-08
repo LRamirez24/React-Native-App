@@ -12,10 +12,13 @@ class Menu extends Component {
         };
     }
 
-        static navigationOptions = {
-        title: 'Menu'
+     static navigationOptions = {
+        title: 'Menu',
+        headerTintColor: '#ffffff',
+        headerStyle: {
+            backgroundColor: '#512DA8',
+          },
     };
-
 
 
 
